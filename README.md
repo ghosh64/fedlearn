@@ -9,7 +9,7 @@ This script can also be used for transferability studies. Transferability is onl
 
 To setup the environment: 
 
-conda env -f environment.yml
+conda env create -f environment.yml
 
 # Federated Training and Testing
 
