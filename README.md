@@ -5,6 +5,12 @@ Run train_resnet.py to start federated training with NSLKDD dataset. Models avai
 
 This script can also be used for transferability studies. Transferability is only for 5 devices. There are 4 attacks and one benign class. Device 0 and 1 are trained with benign and attack 1 data equally split. Benign data is split equally among all devices. Device 2,3,4 are treated with benign and 3 remaining attacks respectively. During validation, each device has a validation set(from NSL KDD Testing dataset) and tested on the validation dataset of other devices. At the end of 5 communication rounds, each device is tested on the validation data of every other device.  
 
+# Environment
+
+To setup the environment: 
+
+conda env -f environment.yml
+
 # Federated Training and Testing
 
 Arguments include:
