@@ -9,4 +9,4 @@ tmp_avg_run2: temporal avg runs
 
 trans: federated transferability using train_resnet.py
 
-tmp_avg_tested_avg:temporal avg runs; tested for transferability on averaged data
+tmp_avg_tested_avg: temporal avg runs; tested for transferability on averaged data
