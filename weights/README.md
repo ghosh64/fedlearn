@@ -1,1 +1,3 @@
-Pretrained global model weights for our results: transferability testing, differential inputs and temporal averaging
+# Results
+
+Global model training weights for our results in different testing scenarios-normal transferability, temporal averaging and differential inputs.
